@@ -1,0 +1,10 @@
+{
+  "name": "sass-test",
+  "version": "1.0.0",
+  "description": "Testing node-sass and ruby-sass glitch",
+  "scripts": {
+    "sass": "node-sass --output-style nested -x main.scss main-node.css & sass --style nested main.scss main-ruby.css"
+  },
+  "author": "Maciej Pekala",
+  "license": "ISC"
+}
