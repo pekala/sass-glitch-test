@@ -9,5 +9,9 @@
 }
 
 body {
-    font-size: 10px;
+    @include simplemixin();
+}
+
+p {
+    @include pseudomixin();
 }

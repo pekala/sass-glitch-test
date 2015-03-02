@@ -1,12 +1,13 @@
 @import "_variables_default";
 @import "_definitions";
+@import "_definitions_colors";
 
 .theme-blue {
     @import "_variables_blue";
-    @import "_definitions";
+    @import "_definitions_colors";
 }
 
 .theme-green {
     @import "_variables_green";
-    @import "_definitions";
+    @import "_definitions_colors";
 }
