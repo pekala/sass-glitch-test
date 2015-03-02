@@ -1,3 +1,11 @@
+@mixin simplemixin($my-color: $color) {
+  color: $my-color;
+}
+
 body {
-    color: $color;
+    @include simplemixin();
+}
+
+p {
+    @include simplemixin(yellow);
 }
