@@ -2,10 +2,21 @@
   color: $my-color;
 }
 
+@mixin pseudomixin($some-color: $color) {
+    &:active {
+        color: $some-color;
+    }
+}
+
 body {
     @include simplemixin();
 }
 
 p {
     @include simplemixin(yellow);
+    @include pseudomixin();
+}
+
+a {
+    @include pseudomixin(yellow);
 }
